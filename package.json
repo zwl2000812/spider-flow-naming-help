@@ -1,0 +1,28 @@
+{
+  "name": "spider-flow-naming-help",
+  "version": "1.0.0",
+  "description": "spider-flow命名规范文档",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwl2000812/spider-flow-naming-help.git"
+  },
+  "keywords": [
+    "naming-help"
+  ],
+  "author": "Devil_Rubick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwl2000812/spider-flow-naming-help/issues"
+  },
+  "homepage": "https://github.com/zwl2000812/spider-flow-naming-help#readme",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.9.7",
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "vuepress": "^1.9.7"
+  }
+}
