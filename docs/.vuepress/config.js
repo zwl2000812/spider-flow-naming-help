@@ -4,15 +4,21 @@ module.exports = {
     themeConfig: {
         sidebar: 'auto',
         nav: [{
-                text: '命名规范',
-                link: '/naming-help/'
+            text: '命名规范',
+            link: '/naming-help/'
 
-            }, {
-                text: '模板开发',
-                link: '/develop/'
+        }, {
+            text: '模板开发',
+            link: '/develop/'
 
-            }
-        ]
+        }, {
+            text: '指纹识别',
+            link: '/finger/'
+
+        }
+        ],
+        lastUpdated: '上次更新',
     },
-    plugins: ['@vuepress/active-header-links', '@vuepress/back-to-top']
+    base: "/",
+    plugins: ['@vuepress/active-header-links', '@vuepress/back-to-top', '@vuepress/last-updated']
 }
